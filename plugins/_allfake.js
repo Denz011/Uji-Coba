@@ -1,3 +1,7 @@
+// Made By Aguz Familia/@FokusDotId (Fokus ID)
+// Github: https://github.com/fokusdotid
+// Recode By ImYanXiao
+
 import fs from 'fs'
 import fetch from 'node-fetch'
 import moment from 'moment-timezone'
@@ -48,7 +52,7 @@ handler.all = async function (m) {
 					description: 'Denn-MultiDevice',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/Denz011/Uji-Coba",					
+					sourceUrl: "https://github.com/Denz011",					
 				}
 			}
 		}
@@ -138,7 +142,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : Denn","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"Denn Bot","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -146,7 +150,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Denn","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "Denn Bot","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -251,7 +255,7 @@ global.fakefb = {
                               }
                              }
                             // Random Pick Fake
-                             let pft = [global.fimg, global.fimgv]
+                             let pft = [global.fimg, global.fimgv, global.fpayment, global.ftroli, global.fkontak, global.fvn, global.fvid, global.ftextt, global.fliveLoc, global.fliveLoc2, global.ftoko, global.fdocs, global.fgclink, global.fgif]
 			                   // Pick Random
 		                     global.fakes = pft.getRandom()
 		        
