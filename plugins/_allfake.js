@@ -255,7 +255,7 @@ global.fakefb = {
                               }
                              }
                             // Random Pick Fake
-                             let pft = [global.fimg, global.fimgv, global.fpayment, global.ftroli, global.fkontak, global.fvn, global.fvid, global.ftextt, global.fliveLoc, global.fliveLoc2, global.ftoko, global.fdocs, global.fgclink, global.fgif]
+                             let pft = [global.fimg, global.fimgv, global.fakeig global.fvid, global.fgif]
 			                   // Pick Random
 		                     global.fakes = pft.getRandom()
 		        
